@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button>
+        <img src="img/70085543ffb787b0212163a5c5ba6635.jpg" alt="" width="10px" height="10px">Lưu</button>
+        <!-- thêm icon vào nốt ấn -->
+     <input type="submit" value="☹ Save" class="vang">
+     <fieldset>
+        <legend> Giới tính</legend> 
+        <!-- tiêu đề -->
+        <input type="radio" name="gender">Nam
+        <input type="radio" name="gender">Nữ
+        <input type="radio" name="gender">Buê đuê
+     </fieldset>
+     <!-- thẻ fieldset : nhóm hai cái thành một đối tượng  -->
+     <input list="subject">
+     <datalist id="subject">
+        <option >Chuyen toan</option>
+        <option >chuyen ly</option>
+        <option >chuyen anh</option>
+     </datalist> <br>
+     <!-- datalist -option : tạo list danh sách -->
+     <input tabindex="1"> Số 1 <br>
+     <input tabindex="3"> Số 2 <br>
+     <input tabindex="2"> Số 3 <br>
+     <!-- tạo tab theo ý muốn chỉnh sửa -->
+     <!--  dùng readonly : chỉ đọc  -->
+     <button disabled >Hủy</button> <br>
+     <form action="bai1">
+        <label class="xanh">FORM ĐĂNG NHẬP</label> <br>
+        <label class="bong" > Tên đăng nhập</label> <br>
+        <label> <input type="text"></label> <br>
+        <label>Mật khẩu</label> <br>
+        <label> <input type="password"> </label> <br>
+        <label><input type="checkbox">Ghi nhớ tài khoản </label> <br>
+        <label> <input type="submit" value="Đăng nhập"> </label>
+        <button class="nut"> Huy</button>
+        <label> <input type="button" value="Hủy" disabled> </label>
+     </form>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.diem :hover {
+    background-color: yellowgreen;
+}
+
+body {
+    font-variant: small-caps;
+    width: 350px;
+    border: 5px double green;
+}
+
+.a {
+    box-shadow: inset 0px 0px 6px 2px blueviolet;
+    border-radius: 15px;
+}

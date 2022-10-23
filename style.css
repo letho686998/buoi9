@@ -1,0 +1,22 @@
+.bai1{
+    border: 2px double greenyellow;
+}
+.nut{
+    border-radius: 15px;
+    color: blueviolet;
+}
+fieldset{
+    border-radius: 15px;
+}
+button :hover{
+    color: aqua;
+}
+.vang :hover{
+    color: yellow;
+}
+.xanh :hover{
+    color: aquamarine;
+}
+.bong{
+    text-shadow: 2px 2px 2px red;
+}

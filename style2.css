@@ -1,0 +1,16 @@
+.diem:hover{
+ background-color: yellow;
+}
+body{
+    border: 5px double rgb(47, 255, 151);
+    width: 300px;
+    
+}
+.dangky {
+    box-shadow: inset 0px 0px 20px blueviolet ;
+    border-radius: 15px;
+}
+.nhaplai{
+    box-shadow:  inset 5px 5px 20px blueviolet ;
+    border-radius: 15px;
+}
